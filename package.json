@@ -1,12 +1,12 @@
 {
-  "id": "gmail",
-  "name": "Gmail",
-  "version": "1.1.1",
-  "description": "Gmail",
+  "id": "disroot",
+  "name": "Disroot",
+  "version": "0.0.1",
+  "description": "Disroot",
   "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "author": "Giulio Gabrieli <ggabrieli@disroot.org>",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://mail.google.com"
+    "serviceURL": "https://cloud.disroot.org/apps/rainloop/"
   }
 }

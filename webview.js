@@ -1,12 +1,10 @@
+// Last edit Oct. 7, 2019 - Giulio Gabrieli
+
 module.exports = (Franz) => {
   const getMessages = function getMessages() {
     let count = 0;
-
-    if (document.getElementsByClassName('J-Ke n0').length > 0) {
-      if (document.getElementsByClassName('J-Ke n0')[0].getAttribute('aria-label') != null) {
-        count = parseInt(document.getElementsByClassName('J-Ke n0')[0].getAttribute('aria-label').replace(/[^0-9.]/g, ''), 10);
-      }
-    }
+    // This reads the number of unread emails in the Inbox
+    count = parseInt(window.frames[0].document.getElementsByClassName('badge pull-right count')[0].innerHTML, 10);	
 
     // Just incase we don't end up with a number, set it back to zero (parseInt can return NaN)
     count = parseInt(count, 10);

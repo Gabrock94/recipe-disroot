@@ -1,5 +1,5 @@
-# Gmail for Franz
-This is the official Franz recipe for Gmail
+# Disroot for Franz
+This is the un-official Franz recipe for Disroot.
 
-### How to create your own Franz recipes:
-* [Read the documentation](https://github.com/meetfranz/plugins)
+
+
